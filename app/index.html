@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>JavaScript Lesson</title>
+
+    <link rel='stylesheet' href='css/bootstrap.min.css' />
+    <link rel='stylesheet' href='css/main.css' />
+
+</head>
+<body ng-app='nbaNews'>
+
+    <div class='main-container' ng-controller='mainCtrl'>
+        
+        <h1>{{title}}</h1>
+
+        <div>
+            <div ng-repeat='article in newsArticles'>
+                <h3>{{article.title}}</h3>
+                <img class='article-image' ng-src='{{article.mainImage}}' />
+            </div>
+        </div>
+
+    </div>
+
+    <script src='./bower_components/angular/angular.js'></script>
+    <script src='./bower_components/angular-resource/angular-resource.js'></script>
+    <script src='./js/app.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+*.log
+*.iml
+.idea
+node_modules
+bower_components
+builds
+*.log
+.tmp
