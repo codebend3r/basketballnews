@@ -8,7 +8,7 @@ Prerequesites:
 
 Once installed run the following comands in your Git bash window:
 
-  npm install -g
-  npm install -g gulp
-  npm install
-  bower install
+    npm install -g
+    npm install -g gulp
+    npm install
+    bower install
